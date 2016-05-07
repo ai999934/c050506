@@ -1,7 +1,10 @@
         .globl  main
         #.global  main -> http://kozos.jp/asm-tanka/ (Added2016.5.7)
 main:   pushl   %ebp
+         # -> ISBN-10: 4798116386 ISBN-13: 978-4798116389
+         #  -> Added2016.5.8
         movl    %esp,%ebp
+        # -> ISBN-10: 4798116386 ISBN-13: 978-4798116389 -> Added2016.5.8
         movl    $0xbf800000,%eax
         movl    %eax,%ebp
         movl    $0xffffffff,%eax
